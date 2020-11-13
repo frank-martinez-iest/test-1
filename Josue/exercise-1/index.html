@@ -1,6 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <!--Comentario-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Exercise</title>
+    <!--ICONS-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--LATO FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
   <body>
-    <p>A paragraph</p>
+    <header class="container">
+      <nav class="navbar">
+        <img src="" alt="Nav logo" />
+        <div class="navigation">
+          <a href="#">FEATURES</a>
+          <a href="#">TEMPLATES</a>
+          <a href="#">INTEGRATIONS</a>
+          <a href="#">PRICING</a>
+        </div>
+        <div class="navbar__buttons">
+          <button>Sign In</button>
+          <button>Sign Up</button>
+        </div>
+      </nav>
+
+      <div class="greeting"><h1>Hola me llamo Josué</h1></div>
+    </header>
+
+    <nav class="container achievements">
+      <!--TEST-->
+      <a href="#">
+        <i class="far fa-image fa-2x"></i>
+        <p>Años de experiencia</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image fa-2x"></i>
+        <p>Galardones</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image fa-2x"></i>
+        <p>Clientes Satisfechos</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image fa-2x"></i>
+        <p>Proyectos Concluidos</p>
+      </a>
+    </nav>
+    <hr />
+
+    <main class="content container">
+      <!--PARTE UNO-->
+      <section class="content__left">
+        <!--Un heading-->
+        <p>THE AMAZING HUBBLE</p>
+        <h2>Spend Less Time Coding</h2>
+        <div class="content__left__post">
+          <figure class="">
+            <img
+              src="https://picsum.photos/seed/picsum/200/300"
+              alt="Random Image"
+            />
+            <figcaption>Just another randome image</figcaption>
+          </figure>
+          <div class="blog">
+            <article>
+              <h4>Become a power-user</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis deserunt similique voluptatum perferendis.Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Blanditiis deserunt
+                similique voluptatum perferendis
+              </p>
+            </article>
+            <article>
+              <h4>Know how to use Vim</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti recusandae voluptate nam fugit repudiandae.Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Blanditiis deserunt
+                similique voluptatum perferendis
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--ASIDE-->
+      <aside class="content__right">
+        <h4>My Stack</h4>
+        <ul>
+          <li class="content__right__stack">
+            <div class="stack__element">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <strong>HTML</strong>
+              <em>95%</em>
+            </div>
+          </li>
+          <li class="content__right__stack">
+            <div class="stack__element">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <strong>CSS</strong>
+              <em>95%</em>
+            </div>
+          </li>
+          <li class="content__right__stack">
+            <div class="stack__element">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <strong>Javascript</strong>
+              <em>95%</em>
+            </div>
+          </li>
+          <li class="content__right__stack">
+            <div class="stack__element">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <strong>E2E Testing</strong>
+              <em>95%</em>
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="container">
+      <!--En la imagen hay dos footers no entendí bien eso-->
+      <!--PARTE ARRIBA-->
+      <nav class="navbar">
+        <img src="" alt="Nav logo" />
+        <div class="navigation">
+          <a href="#">FEATURES</a>
+          <a href="#">TEMPLATES</a>
+          <a href="#">INTEGRATIONS</a>
+          <a href="#">PRICING</a>
+        </div>
+        <form class="navbar__buttons">
+          <input placeholder="Your Email"/>
+          <button>Send</button>
+        </div>
+      </nav>
+      <hr />
+      <!--PARTE DOS-->
+      <div class="footer__second">
+        <nav class="navigation">
+          <a class="mr-1" href="#">Terms</a>
+          <a class="mr-1" href="#">Promo</a>
+          <a class="mr-1" href="#">Download</a>
+          <a class="mr-1" href="#">News</a>
+        </nav>
+        <div>
+          <!--ICONS-->
+          <i class="mr-1 fab fa-twitter"></i>
+          <i class="mr-1 fab fa-twitter"></i>
+          <i class="mr-1 fab fa-twitter"></i>
+          <i class="mr-1 fab fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
