@@ -9,79 +9,71 @@
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
     ></script>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--LATO FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="" alt="Nav logo" />
-        <ul>
-          <li>FEATURES</li>
-          <li>TEMPLATES</li>
-          <li>INTEGRATIONS</li>
-          <li>PRICING</li>
-        </ul>
+    <header class="container">
+      <nav class="navbar">
+      <img src="" alt="Nav logo" />
+      <div class="navigation">
+        <a href="#">FEATURES</a>
+        <a href="#">TEMPLATES</a>
+        <a href="#">INTEGRATIONS</a>
+        <a href="#">PRICING</a>
+      </div class="navigation">
+      <div class="navbar__buttons">
         <button>Sign In</button>
         <button>Sign Up</button>
-      </nav>
-      <div class="greeting">Hola me llamo Josué</div>
+      </div>
+    </nav>
+
+      <div class="greeting"><h1>Hola me llamo Josué</h1></div>
     </header>
 
-    <!--<section>
-      <ul>
-        <li>
-          <img src="" alt="xp" />
-          <h2>Años de experiencia</h2>
-        </li>
-        <li>
-          <img src="" alt="gd" />
-          <h2></h2>
-        </li>
-        <li>
-          <img src="" alt="cl" />
-          <h2></h2>
-        </li>
-        <li>
-          <img src="" alt="py" />
-          <h2></h2>
-        </li>
-      </ul>
-    </section>-->
-
-    <nav class="achievements">
+    <nav class="container achievements">
       <!--TEST-->
-      <ul>
-        <li>
-          <i class="far fa-image"></i>
-          <p>Años de experiencia</p>
-        </li>
-        <li>
-          <i></i>
-          <p>Galardones</p>
-        </li>
-        <li>
-          <i class="far fa-image"></i>
-          <p>Clientes Satisfechos</p>
-        </li>
-        <li>
-          <i class="far fa-image"></i>
-          <p>Proyectos Concluidos</p>
-        </li>
-      </ul>
+      <a href="#">
+        <i class="far fa-image"></i>
+        <p>Años de experiencia</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image"></i>
+        <p>Galardones</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image"></i>
+        <p>Clientes Satisfechos</p>
+      </a>
+      <a href="#">
+        <i class="far fa-image"></i>
+        <p>Proyectos Concluidos</p>
+      </a>
     </nav>
     <hr />
 
-    <main>
+    <main class="content container">
       <!--PARTE UNO-->
-      <section>
+      <section class="content__left">
         <!--Un heading-->
-        <pre>
-          THE AMAZING
-          HUBBLE
-        </pre>
+        <p>THE AMAZING HUBBLE</p>
         <h2>Spend Less Time Coding</h2>
         <figure>
-          <img src="" alt="Random Image" />
+          <img
+            src="https://picsum.photos/seed/picsum/400/400"
+            alt="Random Image"
+          />
           <figcaption>Just another randome image</figcaption>
         </figure>
         <article>
@@ -100,7 +92,7 @@
         </article>
       </section>
       <!--ASIDE-->
-      <aside>
+      <aside class="content__right">
         <h4>My Stack</h4>
         <ul>
           <li>
@@ -159,12 +151,10 @@
       <!--PARTE DOS-->
       <div>
         <nav>
-          <ul>
-            <li>Terms</li>
-            <li>Promo</li>
-            <li>Download</li>
-            <li>News</li>
-          </ul>
+          <a href="#">Terms</a>
+          <a href="#">Promo</a>
+          <a href="#">Download</a>
+          <a href="#">News</a>
         </nav>
         <div>
           <!--ICONS-->
