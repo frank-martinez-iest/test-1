@@ -83,29 +83,24 @@ ul {
   text-align: center;
 }
 
-/*GREETING*/
-.greeting {
-  background-image: url(../images/bg.png);
-  background-size: cover;
-  background-position: center center;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
 /*ACHIEVEMENTS*/
 .achievements {
   display: flex;
-  height: 80px;
-  justify-content: space-evenly;
+  height: 100px;
+  width: 100%;
+  align-items: center;
 }
-.achievements a {
+.achievements__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.achievements__list li {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
 }
-.achievements a p {
+.achievements__list li p {
   margin-left: 1rem;
 }
 /*MAIN SECTION*/
