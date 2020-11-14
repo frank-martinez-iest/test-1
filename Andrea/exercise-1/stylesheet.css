@@ -99,7 +99,6 @@ li img{
 .main-content.texto{
     display: flex;
     align-items: center;
-    margin: 1rem;
     padding: 1rem;
 }
 
@@ -118,14 +117,22 @@ li img{
 
 .titulo-col1{
     margin: 50px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     width: 500px;
-    display: block;
     text-align: center;
-    line-height: 2rem;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+    
 }
 
-
+.span-col1 {
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1rem;
+}
 .second-content{
     flex-basis: calc(25%);
     margin-top: 1rem;
