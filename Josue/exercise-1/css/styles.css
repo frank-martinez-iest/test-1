@@ -104,18 +104,18 @@ ul {
   margin-left: 1rem;
 }
 /*MAIN SECTION*/
-.content {
+.main-content {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.content__left {
+.main-content__left {
   flex-basis: 60%;
   text-align: center;
 }
-.content__left__post {
+.main-content__left__post {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
@@ -127,11 +127,11 @@ ul {
   flex-direction: column;
   justify-content: space-between;
 }
-.content__right {
+.my-stack {
   flex-basis: calc(40% - 1rem);
 }
 /* ASIDE*/
-.content__right__stack {
+.my-stack__list-item {
   display: flex;
   height: 4rem;
   margin-top: 1rem;
