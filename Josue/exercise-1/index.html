@@ -21,17 +21,21 @@
   <body>
     <header>
       <nav class="container navbar">
-        <img src="" alt="Nav logo" />
-        <div class="navigation">
-          <a href="#">Features</a>
-          <a href="#">Templates</a>
-          <a href="#">Integrations</a>
-          <a href="#">Pricing</a>
-        </div>
-        <div class="navbar__buttons">
-          <button>Sign In</button>
-          <button>Sign Up</button>
-        </div>
+        <ul class="navbar__list">
+          <li class="navbar__list__logo">
+            <a href="/"><img src="" alt="Nav logo" /></a>
+          </li>
+          <li class="navbar__list__items">
+            <a href="#">Features</a>
+            <a href="#">Templates</a>
+            <a href="#">Integrations</a>
+            <a href="#">Pricing</a>
+          </li>
+          <li class="navbar__list__buttons">
+            <button class="o-btn">Sign In</button>
+            <button class="f-btn">Sign Up</button>
+          </li>
+        </ul>
       </nav>
 
       <section class="hero">
@@ -65,7 +69,7 @@
     </section>
     <hr />
 
-    <main class="container main-content ">
+    <main class="container main-content">
       <!--PARTE UNO-->
       <section class="main-content__left">
         <!--Un heading-->
@@ -145,37 +149,47 @@
       </aside>
     </main>
     <footer class="container">
-      <!--En la imagen hay dos footers no entendí bien eso-->
       <!--PARTE ARRIBA-->
       <nav class="navbar">
-        <img src="" alt="Nav logo" />
-        <div class="navigation">
-          <a href="#">FEATURES</a>
-          <a href="#">TEMPLATES</a>
-          <a href="#">INTEGRATIONS</a>
-          <a href="#">PRICING</a>
-        </div>
-        <form class="navbar__buttons">
-          <input placeholder="Your Email"/>
-          <button>Send</button>
-        </div>
+        <ul class="navbar__list">
+          <li class="navbar__list__logo">
+            <a href="/"><img src="" alt="Nav logo" /></a>
+          </li>
+          <li><a href="/travel">Travel</a></li>
+          <li><a href="/travel">Explore</a></li>
+          <li><a href="/travel">Works</a></li>
+          <li><a href="/travel">About Us</a></li>
+          <li><a href="/travel">Contacts</a></li>
+          <li>
+            <form>
+              <label
+                >Your Email<input type="text" id="Name" name="Name"
+              /></label>
+              <button class="f-btn" type="submit">Send</button>
+            </form>
+          </li>
+        </ul>
       </nav>
       <hr />
       <!--PARTE DOS-->
-      <div class="footer__second">
-        <nav class="navigation">
-          <a class="mr-1" href="#">Terms</a>
-          <a class="mr-1" href="#">Promo</a>
-          <a class="mr-1" href="#">Download</a>
-          <a class="mr-1" href="#">News</a>
+      <div class="footer__bottom">
+        <nav class="footer__bottom__nav">
+          <ul class="footer__bottom__nav__list">
+            <li class="mr-1"><a href="#">Terms</a></li>
+            <li class="mr-1"><a href="#">Promo</a></li>
+            <li class="mr-1"><a href="#">Download</a></li>
+            <li class="mr-1"><a href="#">News</a></li>
+            <li>
+              <div>
+                <!--ICONS-->
+                <i class="mr-1 fab fa-twitter"></i>
+                <i class="mr-1 fab fa-twitter"></i>
+                <i class="mr-1 fab fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
+              </div>
+            </li>
+          </ul>
         </nav>
-        <div>
-          <!--ICONS-->
-          <i class="mr-1 fab fa-twitter"></i>
-          <i class="mr-1 fab fa-twitter"></i>
-          <i class="mr-1 fab fa-twitter"></i>
-          <i class="mr-1 fab fa-twitter"></i>
-        </div>
       </div>
     </footer>
   </body>
