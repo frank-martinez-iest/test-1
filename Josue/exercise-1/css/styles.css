@@ -69,7 +69,7 @@ ul {
   align-items: center;
   width: 100%;
 }
-.navbar__list__items a {
+.navbar__list-items a {
   padding: 0 1rem;
 }
 /* Hero Section*/
@@ -131,12 +131,12 @@ ul {
   flex-basis: 60%;
   text-align: center;
 }
-.main-content__left__post {
+.main-content__left-post {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
 }
-.blog {
+.main-content__blog {
   text-align: left;
   padding: 1rem;
   display: flex;
@@ -153,12 +153,12 @@ ul {
   margin-top: 1rem;
   align-items: center;
 }
-.stack__element {
+.my-stack__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.2rem;
-  width: 40px;
+  padding: 0.4rem;
+  width: 40px !important;
   height: 40px;
   border-radius: 100%;
   border: solid 2px blue;
